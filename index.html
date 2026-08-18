@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Story ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         FIRST SCREEN
+         ========================= -->
+
+    <main class="welcome">
+
+        <div class="heart">♡</div>
+
+        <h1>Our Story</h1>
+
+        <p>Some stories are written in the stars...</p>
+
+        <button onclick="startStory()">
+            Enter Our World ✨
+        </button>
+
+    </main>
+
+
+    <!-- =========================
+         PASSWORD SCREEN
+         ========================= -->
+
+    <section id="passwordScreen" class="password-screen">
+
+        <div class="password-box">
+
+            <div class="lock">🔐</div>
+
+            <h1>Just For Us</h1>
+
+            <p>Enter our secret to continue ❤️</p>
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Enter password"
+            >
+
+            <button onclick="checkPassword()">
+                Unlock ❤️
+            </button>
+
+            <p id="passwordError"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAIN SCROLLING WEBSITE
+         ========================= -->
+
+    <div id="website" style="display: none;">
+
+
+        <!-- =========================
+             OUR STORY
+             ========================= -->
+
+        <section class="scroll-section story-section">
+
+            <h1>Our Story 🌙</h1>
+
+            <p>
+                Some moments pass by quietly,
+                but the ones we share become memories
+                we carry forever. ❤️
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             OUR MEMORIES
+             ========================= -->
+
+        <section class="scroll-section memories-section">
+
+            <h1>Our Memories 📸</h1>
+
+            <p>
+                Little moments that became our favorite memories.
+            </p>
+
+
+            <!-- POLAROID WALL -->
+
+            <div class="polaroid-wall">
+
+
+                <!-- PHOTO 1 -->
+
+                <div class="polaroid">
+
+                    <img
+                        src="images/photo1.jpeg"
+                        alt="Our memory 1"
+                    >
+
+                    <p>
+                        That little moment ❤️
+                    </p>
+
+                </div>
+
+
+                <!-- PHOTO 2 -->
+
+                <div class="polaroid">
+
+                    <img
+                        src="images/photo2.jpeg"
+                        alt="Our memory 2"
+                    >
+
+                    <p>
+                        Just us ✨
+                    </p>
+
+                </div>
+
+
+                <!-- PHOTO 3 -->
+
+                <div class="polaroid">
+
+                    <img
+                        src="images/photo3.jpeg"
+                        alt="Our memory 3"
+                    >
+
+                    <p>
+                        A memory to keep 🌙
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LETTER FOR YOU
+             ========================= -->
+
+        <section class="scroll-section letter-section">
+
+            <div class="letter-content">
+
+                <p class="section-label">
+                    FROM MY HEART
+                </p>
+
+                <h1>
+                    A Letter For You 💌
+                </h1>
+
+                <div class="letter-card">
+
+                    <p>
+                        To the person who makes my world
+                        a little brighter...
+                    </p>
+
+                    <p>
+                        I don't know where our story will take us,
+                        but I know that every moment we've shared
+                        has become something special to me.
+                    </p>
+
+                    <p>
+                        Thank you for all the little things,
+                        the smiles, the memories,
+                        and every beautiful moment in between. ❤️
+                    </p>
+
+                    <p class="signature">
+                        Forever yours,<br>
+                        ❤️
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ALL PHOTOS SECTION
+             ========================= -->
+
+        <section class="scroll-section photo-gallery-section">
+
+
+            <!-- GALLERY TITLE -->
+
+            <div class="gallery-heading">
+
+                <p class="section-label">
+                    OUR LITTLE WORLD
+                </p>
+
+                <h1>
+                    Moments I Want To Keep Forever 📸
+                </h1>
+
+                <p>
+                    Every picture holds a little piece
+                    of our story. ❤️
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 1
+                 ========================= -->
+
+            <div class="memory-photo photo-one">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo1.jpeg"
+                    alt="Our memory 1"
+                >
+
+                <p>
+                    One little moment ❤️
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 2
+                 ========================= -->
+
+            <div class="memory-photo photo-two">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo2.jpeg"
+                    alt="Our memory 2"
+                >
+
+                <p>
+                    Just us ✨
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 3
+                 ========================= -->
+
+            <div class="memory-photo photo-three">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo3.jpeg"
+                    alt="Our memory 3"
+                >
+
+                <p>
+                    A moment worth keeping 🌙
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 4
+                 ========================= -->
+
+            <div class="memory-photo photo-four">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo4.jpeg"
+                    alt="Our memory 4"
+                >
+
+                <p>
+                    Another piece of us 💕
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 5
+                 ========================= -->
+
+            <div class="memory-photo photo-five">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo5.jpeg"
+                    alt="Our memory 5"
+                >
+
+                <p>
+                    One of my favourites 🥹
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 6
+                 ========================= -->
+
+            <div class="memory-photo photo-six">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo6.jpeg"
+                    alt="Our memory 6"
+                >
+
+                <p>
+                    Us, always ❤️
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 7
+                 ========================= -->
+
+            <div class="memory-photo photo-seven">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo7.jpeg"
+                    alt="Our memory 7"
+                >
+
+                <p>
+                    A memory I'll never forget ✨
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 8
+                 ========================= -->
+
+            <div class="memory-photo photo-eight">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo8.jpeg"
+                    alt="Our memory 8"
+                >
+
+                <p>
+                    Our little universe 🌌
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 9
+                 ========================= -->
+
+            <div class="memory-photo photo-nine">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo9.jpeg"
+                    alt="Our memory 9"
+                >
+
+                <p>
+                    Forever a favourite 💗
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO 10
+                 ========================= -->
+
+            <div class="memory-photo photo-ten">
+
+                <div class="photo-light"></div>
+
+                <img
+                    src="images/photo10.jpeg"
+                    alt="Our memory 10"
+                >
+
+                <p>
+                    And this one too... ❤️
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 GALLERY END
+                 ========================= -->
+
+            <div class="gallery-ending">
+
+                <p>
+                    Ten pictures. A thousand memories. ♡
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- =========================
+             FINAL TOUCH
+             ========================= -->
+
+        <section class="scroll-section final-section">
+
+            <div class="final-content">
+
+                <div class="final-heart">
+                    ♡
+                </div>
+
+                <p class="section-label">
+                    AND FINALLY...
+                </p>
+
+                <h1>
+                    This Is Only The Beginning ❤️
+                </h1>
+
+                <p>
+                    No matter where life takes us,
+                    I hope we keep creating little moments
+                    worth remembering.
+                </p>
+
+                <div class="final-message">
+                    Forever & Always ✨
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+         ========================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
